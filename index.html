@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Игра "Угадай число"</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
 <body>
-	<p>Назар бичуха</p>
+	<h1>Игра "Угадай число"</h1>
+	<p>Мы выбрали случайное число от 1 до 100. Посмотрите, можете ли вы угадать это число за 10 попыток или меньше. Мы подскажем вам, было ли ваше предположение больше или меньше загаданного числа.</p>
+	<div class="form">
+		<label for="guessField">Введите число: </label>
+		<input type="text" id="guessField" class="guessField">
+		<input type="submit" value="Принять ответ" class="guessSubmit">
+	</div>
+
+	<div class="resultParas">
+		<p class="guesses"></p>
+		<p class="lastResult"></p>
+		<p class="lowOrHi"></p>
+	</div>
+
+
+
 </body>
+<script src="scripts/script.js" type="text/javascript"></script>
 </html>

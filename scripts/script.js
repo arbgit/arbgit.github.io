@@ -28,9 +28,9 @@ function checkGuess() {
     lastResult.textContent = 'Неправивильно!';
     lastResult.style.backgroundColor = 'red';
     if (userGuess < randomNumber) {
-      lowOrHi.textContent = 'Вы ввели значение меньше загаданного!';
+      lowOrHi.textContent = 'Вы ввели значение меньше загаданного!!';
     } else if(userGuess > randomNumber) {
-      lowOrHi.textContent = 'Вы ввели значение больше загаданного!';
+      lowOrHi.textContent = 'Вы ввели значение больше загаданного!!';
     }
   }
 
